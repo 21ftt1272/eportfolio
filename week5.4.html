@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>week5.4</title>
+	<style type="text/css">
+	
+/*	.red{color: red}*/
+	div+p{color: red} /*adjacent sibling using + means after div only 1 p colored after div*/
+	/*div~p{color: red}*/ /*general sibling using ~ means luar dari div but only all p colored*/
+	/*#fd>p{color:red;}*/
+	/*div>div>p{color:red;}*/
+	</style>
+</head>
+<body>
+		<!-- <div id="fd"> -->
+			<div>
+		 	<p>Im the first child of 1st div</p>
+		 	<p>Im the second child of 1st div</p>
+		 	<div> <p>1.1</p></div>
+		</div>
+<!-- 		<p class="red">I am the next sibling just after 1st div</p> -->
+		<p>I am the next sibling just after 1st div</p>
+		<p>I am the second sibling just after 1st div</p>
+		<div>
+		 	<p>I am the first child of the 2nd div</p>
+		</div>
+<!-- 		<p class="red">Iam the next sibling after the 2nd div</p> -->
+		<p>Iam the next sibling after the 2nd div</p>
+		<p>I am the second sibling just after 2nd div</p>
+		<p>I am the thirsd sibling just after 2nd div</p>
+
+</head>
+<body>
+
+</body>
+</html>
